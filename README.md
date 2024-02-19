@@ -19,6 +19,7 @@ npm install -g npm@10.4.0
 ## configuring nginx
 `sudo nano /etc/nginx/sites-available/nextjs`
 
+**Note**: Please replace YOUR_IP_ADDRESS with the droplet IP address, or a domain name
 ```
   server {
     listen 80;
