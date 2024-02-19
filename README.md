@@ -12,7 +12,7 @@ curl -sL https://deb.nodesource.com/setup_18.x -o /tmp/nodesource_setup.sh
 nano /tmp/nodesource_setup.sh
 
 sudo bash /tmp/nodesource_setup.sh
-sudo apt install nodejs
+sudo apt install nodejs -y
 npm install -g npm@10.4.0
 ```
 
